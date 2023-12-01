@@ -1,22 +1,51 @@
-body{ background-color: rgb(194, 192, 192);}
-h1{color: rgb(255, 255, 255);
+body {
+    background-color: rgb(194, 192, 192);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0; /* Nullige body marginaal, et vältida lehe vaikimisi marginaale */
+}
+
+.header {
+    background-color: transparent;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    margin-bottom: 60px; /* muutke see väärtus vastavalt teie headeri kõrgusele */
+}
+
+.header h1 {
+    color: rgb(255, 255, 255);
     text-shadow: 1px 1px 5px black;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: oblique;
-    font-weight: 500;}
-
-main{text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: oblique;
     font-weight: 500;
 }
-img{box-shadow: 4px 4px 5px;}
+
+.header img {
+    width: 50px;
+}
+
+.content {
+    margin-top: 200px;
+    padding-top: 10px; /* Vähendatud padding */
+    text-align: left;
+    font-weight: 500;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 4px 4px 5px;
+}
+
 table, th, td {
-    width: 25%;
+    width: 100%;
     border-collapse: collapse;
     border: 2px solid red;
     background-color: brown;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
