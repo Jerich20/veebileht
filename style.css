@@ -1,7 +1,10 @@
 body {
-    background-color: rgb(194, 192, 192);
+    background-image: url('https://manunitedcore.com/wp-content/uploads/2019/07/26.jpg'); /* Asendage 'your-background-image.jpg' tegeliku taustapildi failinimega */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* Taustapildi fikseerimine lehekülje kerimisel */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0; /* Nullige body marginaal, et vältida lehe vaikimisi marginaale */
+    margin: 0;
 }
 
 .header {
@@ -18,22 +21,25 @@ body {
 }
 
 .header h1 {
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 5px black;
     text-align: center;
-    font-style: oblique;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .header img {
-    width: 50px;
+    width: 75px;
 }
 
 .content {
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 200px;
     padding-top: 10px; /* Vähendatud padding */
     text-align: left;
     font-weight: 500;
+    color:white;
+    font-size: 20px;
 }
 
 .logo {
@@ -42,10 +48,4 @@ body {
     box-shadow: 4px 4px 5px;
 }
 
-table, th, td {
-    width: 100%;
-    border-collapse: collapse;
-    border: 2px solid red;
-    background-color: brown;
-    margin: 0 auto;
-}
+
