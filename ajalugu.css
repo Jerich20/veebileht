@@ -20,7 +20,7 @@ table, th, td {
     margin-right: auto;
 }
 .center {
-    width: 1017.885px;
+    width: 1000px;
     height: 0 px;
     object-fit: cover;
 }
@@ -74,4 +74,9 @@ table, th, td {
     float: right;
     height: 10%;
     width: 10%;
+  }
+  p {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
   }
